@@ -1,5 +1,10 @@
 class Person
   
   def job=(new_career)
-    @job =
+    @job = new_career
+  end
+  
+  def job
+    @job
+  end
 end
